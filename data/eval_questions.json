@@ -1,0 +1,14 @@
+[
+  {"question":"上传单个文件的大小上限是多少？","expected_sources":["uploads.md"],"expected_answer_points":["20 MiB"]},
+  {"question":"扫描版 PDF 怎么处理？","expected_sources":["uploads.md"],"expected_answer_points":["OCR"]},
+  {"question":"会话消息存储在哪个数据库？","expected_sources":["sessions.md"],"expected_answer_points":["SQLite"]},
+  {"question":"历史窗口的默认轮数与字符预算是多少？","expected_sources":["sessions.md"],"expected_answer_points":["6","6000"]},
+  {"question":"RRF 的排名常数是多少？","expected_sources":["retrieval.md"],"expected_answer_points":["60"]},
+  {"question":"What happens when the semantic cross encoder is unavailable?","expected_sources":["retrieval.md"],"expected_answer_points":["lightweight"]},
+  {"question":"Embedding 模型变化后如何重建索引？","expected_sources":["models.md"],"expected_answer_points":["全库重建"]},
+  {"question":"前端和后端监听哪些端口？","expected_sources":["security.md"],"expected_answer_points":["5173","8000"]},
+  {"question":"How are API credentials displayed in the UI?","expected_sources":["security.md"],"expected_answer_points":["masked"]},
+  {"question":"更新项目之前应备份哪个目录？","expected_sources":["maintenance.md"],"expected_answer_points":["data"]},
+  {"question":"删除索引和删除会话分别会保留或删除什么？","expected_sources":["uploads.md","sessions.md"],"expected_answer_points":["原文件","消息"]},
+  {"question":"旧快照会占用磁盘空间吗，在哪里保存旧文件副本？","expected_sources":["maintenance.md"],"expected_answer_points":["backups"]}
+]

@@ -1,0 +1,724 @@
+{
+  "embedding": {
+    "backend": "hash",
+    "model": "blake2b-1024",
+    "revision": "1"
+  },
+  "top_k": 3,
+  "unit": "exact source filename; duplicate sources removed within top-K chunks",
+  "answer_faithfulness": "not evaluated: no grounded answer adjudication",
+  "variants": {
+    "vector+none": {
+      "metrics": {
+        "recall_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0
+      },
+      "labeled_cases": 12,
+      "results": [
+        {
+          "question": "上传单个文件的大小上限是多少？",
+          "top_sources": [
+            "uploads.md",
+            "uploads.md",
+            "maintenance.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "扫描版 PDF 怎么处理？",
+          "top_sources": [
+            "uploads.md",
+            "sessions.md",
+            "models.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "会话消息存储在哪个数据库？",
+          "top_sources": [
+            "sessions.md",
+            "maintenance.md",
+            "uploads.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "历史窗口的默认轮数与字符预算是多少？",
+          "top_sources": [
+            "sessions.md",
+            "uploads.md",
+            "maintenance.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "RRF 的排名常数是多少？",
+          "top_sources": [
+            "retrieval.md",
+            "security.md",
+            "sessions.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "What happens when the semantic cross encoder is unavailable?",
+          "top_sources": [
+            "retrieval.md",
+            "security.md",
+            "retrieval.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "Embedding 模型变化后如何重建索引？",
+          "top_sources": [
+            "models.md",
+            "models.md",
+            "security.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "前端和后端监听哪些端口？",
+          "top_sources": [
+            "security.md",
+            "maintenance.md",
+            "models.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "How are API credentials displayed in the UI?",
+          "top_sources": [
+            "security.md",
+            "retrieval.md",
+            "models.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "更新项目之前应备份哪个目录？",
+          "top_sources": [
+            "maintenance.md",
+            "maintenance.md",
+            "models.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "删除索引和删除会话分别会保留或删除什么？",
+          "top_sources": [
+            "sessions.md",
+            "uploads.md",
+            "maintenance.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "旧快照会占用磁盘空间吗，在哪里保存旧文件副本？",
+          "top_sources": [
+            "maintenance.md",
+            "uploads.md",
+            "maintenance.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        }
+      ]
+    },
+    "keyword+none": {
+      "metrics": {
+        "recall_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0
+      },
+      "labeled_cases": 12,
+      "results": [
+        {
+          "question": "上传单个文件的大小上限是多少？",
+          "top_sources": [
+            "uploads.md",
+            "sessions.md",
+            "models.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "扫描版 PDF 怎么处理？",
+          "top_sources": [
+            "uploads.md",
+            "models.md",
+            "sessions.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "会话消息存储在哪个数据库？",
+          "top_sources": [
+            "sessions.md",
+            "maintenance.md",
+            "sessions.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "历史窗口的默认轮数与字符预算是多少？",
+          "top_sources": [
+            "sessions.md",
+            "models.md",
+            "uploads.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "RRF 的排名常数是多少？",
+          "top_sources": [
+            "retrieval.md",
+            "models.md",
+            "sessions.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "What happens when the semantic cross encoder is unavailable?",
+          "top_sources": [
+            "retrieval.md",
+            "security.md",
+            "models.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "Embedding 模型变化后如何重建索引？",
+          "top_sources": [
+            "models.md",
+            "models.md",
+            "maintenance.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "前端和后端监听哪些端口？",
+          "top_sources": [
+            "security.md",
+            "models.md",
+            "sessions.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "How are API credentials displayed in the UI?",
+          "top_sources": [
+            "security.md",
+            "retrieval.md",
+            "models.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "更新项目之前应备份哪个目录？",
+          "top_sources": [
+            "maintenance.md",
+            "maintenance.md",
+            "uploads.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "删除索引和删除会话分别会保留或删除什么？",
+          "top_sources": [
+            "uploads.md",
+            "sessions.md",
+            "maintenance.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "旧快照会占用磁盘空间吗，在哪里保存旧文件副本？",
+          "top_sources": [
+            "maintenance.md",
+            "uploads.md",
+            "models.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        }
+      ]
+    },
+    "hybrid+none": {
+      "metrics": {
+        "recall_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0
+      },
+      "labeled_cases": 12,
+      "results": [
+        {
+          "question": "上传单个文件的大小上限是多少？",
+          "top_sources": [
+            "uploads.md",
+            "uploads.md",
+            "maintenance.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "扫描版 PDF 怎么处理？",
+          "top_sources": [
+            "uploads.md",
+            "sessions.md",
+            "models.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "会话消息存储在哪个数据库？",
+          "top_sources": [
+            "sessions.md",
+            "maintenance.md",
+            "uploads.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "历史窗口的默认轮数与字符预算是多少？",
+          "top_sources": [
+            "sessions.md",
+            "uploads.md",
+            "maintenance.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "RRF 的排名常数是多少？",
+          "top_sources": [
+            "retrieval.md",
+            "sessions.md",
+            "security.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "What happens when the semantic cross encoder is unavailable?",
+          "top_sources": [
+            "retrieval.md",
+            "security.md",
+            "retrieval.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "Embedding 模型变化后如何重建索引？",
+          "top_sources": [
+            "models.md",
+            "models.md",
+            "maintenance.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "前端和后端监听哪些端口？",
+          "top_sources": [
+            "security.md",
+            "maintenance.md",
+            "models.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "How are API credentials displayed in the UI?",
+          "top_sources": [
+            "security.md",
+            "retrieval.md",
+            "models.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "更新项目之前应备份哪个目录？",
+          "top_sources": [
+            "maintenance.md",
+            "maintenance.md",
+            "uploads.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "删除索引和删除会话分别会保留或删除什么？",
+          "top_sources": [
+            "sessions.md",
+            "uploads.md",
+            "maintenance.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        },
+        {
+          "question": "旧快照会占用磁盘空间吗，在哪里保存旧文件副本？",
+          "top_sources": [
+            "maintenance.md",
+            "uploads.md",
+            "sessions.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "none"
+          ]
+        }
+      ]
+    },
+    "hybrid+lightweight": {
+      "metrics": {
+        "recall_at_k": 1.0,
+        "mrr": 1.0,
+        "ndcg_at_k": 1.0
+      },
+      "labeled_cases": 12,
+      "results": [
+        {
+          "question": "上传单个文件的大小上限是多少？",
+          "top_sources": [
+            "uploads.md",
+            "models.md",
+            "uploads.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "lightweight"
+          ]
+        },
+        {
+          "question": "扫描版 PDF 怎么处理？",
+          "top_sources": [
+            "uploads.md",
+            "sessions.md",
+            "models.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "lightweight"
+          ]
+        },
+        {
+          "question": "会话消息存储在哪个数据库？",
+          "top_sources": [
+            "sessions.md",
+            "maintenance.md",
+            "uploads.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "lightweight"
+          ]
+        },
+        {
+          "question": "历史窗口的默认轮数与字符预算是多少？",
+          "top_sources": [
+            "sessions.md",
+            "uploads.md",
+            "maintenance.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "lightweight"
+          ]
+        },
+        {
+          "question": "RRF 的排名常数是多少？",
+          "top_sources": [
+            "retrieval.md",
+            "sessions.md",
+            "security.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "lightweight"
+          ]
+        },
+        {
+          "question": "What happens when the semantic cross encoder is unavailable?",
+          "top_sources": [
+            "retrieval.md",
+            "security.md",
+            "models.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "lightweight"
+          ]
+        },
+        {
+          "question": "Embedding 模型变化后如何重建索引？",
+          "top_sources": [
+            "models.md",
+            "models.md",
+            "maintenance.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "lightweight"
+          ]
+        },
+        {
+          "question": "前端和后端监听哪些端口？",
+          "top_sources": [
+            "security.md",
+            "models.md",
+            "maintenance.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "lightweight"
+          ]
+        },
+        {
+          "question": "How are API credentials displayed in the UI?",
+          "top_sources": [
+            "security.md",
+            "retrieval.md",
+            "models.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "lightweight"
+          ]
+        },
+        {
+          "question": "更新项目之前应备份哪个目录？",
+          "top_sources": [
+            "maintenance.md",
+            "maintenance.md",
+            "uploads.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "lightweight"
+          ]
+        },
+        {
+          "question": "删除索引和删除会话分别会保留或删除什么？",
+          "top_sources": [
+            "uploads.md",
+            "sessions.md",
+            "maintenance.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "lightweight"
+          ]
+        },
+        {
+          "question": "旧快照会占用磁盘空间吗，在哪里保存旧文件副本？",
+          "top_sources": [
+            "maintenance.md",
+            "uploads.md",
+            "models.md"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg_at_k": 1.0,
+          "rerankers_used": [
+            "lightweight"
+          ]
+        }
+      ]
+    }
+  }
+}
