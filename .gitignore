@@ -1,0 +1,61 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
+# Python environments, caches and test output
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.egg-info/
+build/
+dist/
+
+# Runtime data: retain only public labels and empty placeholders
+/data/*
+!/data/eval_questions.json
+!/data/uploads/
+!/data/vector_store/
+!/data/db/
+/data/uploads/*
+/data/vector_store/*
+/data/db/*
+!/data/uploads/.gitkeep
+!/data/vector_store/.gitkeep
+!/data/db/.gitkeep
+*.sqlite*
+*.db
+*.log
+*.pid
+models/
+.streamlit/
+
+# Frontend dependencies and generated output
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Local editor, OS and agent metadata
+.idea/
+.vscode/
+.agents/
+.codex/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini

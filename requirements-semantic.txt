@@ -1,0 +1,2 @@
+# Optional CPU models; install explicitly. Weights must already be cached/local.
+sentence-transformers>=3.4,<6

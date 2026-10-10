@@ -1,0 +1,18 @@
+langchain-core==0.3.86
+langchain-text-splitters==0.3.11
+langchain-chroma==0.1.4
+chromadb==0.5.3
+# Native Windows dependencies are pinned together; newer ONNX wheels crashed
+# during import on the supported local runtime.
+chroma-hnswlib==0.7.3
+numpy==1.26.4
+onnxruntime==1.19.2
+pypdf==6.20.0
+python-docx==1.2.0
+openai==3.27.0
+python-dotenv==1.2.4
+fastapi==0.143.0
+uvicorn==0.54.0
+python-multipart==0.0.32
+pydantic==2.14.0
+streamlit==1.65.0
